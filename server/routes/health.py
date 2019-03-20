@@ -7,7 +7,7 @@ def health():
     """health route"""
     state = {"status": "UP"}
     return jsonify(state)
-    @app.route('/answer')
+    
 
 @app.route('/answer')
 def answer():
